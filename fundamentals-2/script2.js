@@ -17,7 +17,7 @@ HINT: Remember that an array needs a value in each position, and that value can 
 GOOD LUCK 😀
 */
 
-function calcTip (bill){
+function calcTip1 (bill){
     if (bill >= 50 && bill <= 300){
         return 15;
     }else{
@@ -25,12 +25,12 @@ function calcTip (bill){
     }
 }
 
-const bills = [125,555,44];
+const bills1 = [125,555,44];
 
-const tips = [calcTip(bills[0]),calcTip(bills[1]),calcTip(bills[2])];
+const tips1 = [calcTip1(bills1[0]),calcTip1(bills1[1]),calcTip1(bills1[2])];
 
-const total = [bills[0]*tips[0]/100 + bills[0], bills[1]*tips[1]/100 + bills[1], bills[2]*tips[2]/100 + bills[2]];
+const total1 = [bills1[0]*tips1[0]/100 + bills1[0], bills1[1]*tips1[1]/100 + bills1[1], bills1[2]*tips1[2]/100 + bills1[2]];
 
-console.log(bills);
-console.log(tips);
-console.log(total);
+console.log(bills1);
+console.log(tips1);
+console.log(total1);
