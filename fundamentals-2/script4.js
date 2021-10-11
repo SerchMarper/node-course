@@ -51,3 +51,4 @@ console.log(tips);
 console.log(totals);
 
 console.log(calcAverages(totals));
+if(x===2) console.log("hello")
