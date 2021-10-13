@@ -14,13 +14,13 @@ TEST DATA 1: [17, 21, 23]
 TEST DATA 2: [12, 5, -5, 0, 4]
 */
 
-function printForecast(arr){
-    let tempString = "...";
+function printForecast(arr) {
+  let tempString = "...";
 
-    for (let i = 0; i < arr.length; i++){
-        tempString += ` ${arr[i]}ºC in ${i+1} days ...`
-    }
-    console.log(tempString);
+  for (let i = 0; i < arr.length; i++) {
+    tempString += ` ${arr[i]}ºC in ${i + 1} days ...`;
+  }
+  console.log(tempString);
 }
 
 printForecast([12, 5, -5, 0, 4]);
