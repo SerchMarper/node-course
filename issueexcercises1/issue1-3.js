@@ -23,7 +23,7 @@ async function asyncCall(asyncQuestion) {
   }
 
 function continueGame(){ 
-    var userNum = Number(promptAnswer("Choose a number between 1 and 6: "));
+    var userNum = Number(asyncCall("Choose a number between 1 and 6: "));
     console.log("UserNum: " + userNum);
   var randomNumber = Math.floor(Math.random() * 6) + 1;
   if (typeof userNum === "number" && userNum >= 1 && userNum <= 6) {
@@ -41,7 +41,7 @@ function continueGame(){
 continueGame();
 
 while(conGame == true){
-contVar = promptAnswer("Wanna play again? y/n: ");
+contVar = prompt("Wanna play again? y/n: ");
 console.log("ContVar: " + contVar);
 if(contVar == "y"){
   continueGame();

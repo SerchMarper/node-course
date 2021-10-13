@@ -44,4 +44,3 @@ if((prompt("Wanna play again? y/n")) == "y"){
   document.getElementById("end").innerHTML = "Game ended";
   }
 }
-
