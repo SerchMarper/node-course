@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "prompt": "^1.2.0",
+    "prompt-async": "^0.9.9",
     "prompt-sync": "^4.2.0"
   }
 }
