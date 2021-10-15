@@ -13,3 +13,16 @@ async function getData() {
   }
 }
 getData();
+
+// function makeGetRequest(path) {
+// 	axios.get(path).then(
+// 		(response) => {
+// 			var result = response.data;
+// 			console.log(result);
+// 		},
+// 		(error) => {
+// 			console.log(error);
+// 		}
+// 	);
+// }
+// makeGetRequest('http://bit.ly/2mTM3nY');
