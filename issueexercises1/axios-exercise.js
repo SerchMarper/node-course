@@ -5,7 +5,7 @@ const axios = require('axios').default;
 async function getData() {
   try {
     const response = await axios.get(
-      "https://restcountries.eu/rest/v2/alpha/col"
+      "https://api.openweathermap.org/data/2.5/weather?q=London&appid=805a93796053e6d7928b04fa40a32a69"
     );
     console.log(response);
   } catch (error) {
