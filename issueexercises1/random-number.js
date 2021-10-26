@@ -47,7 +47,7 @@ async function continueGame() {
     console.log("You didn't entered a number between 1 and 6");
   }
   console.log(`User score: ${userScore}`);
-  module.exports(userScore);
+  //module.exports(userScore);
 }
 
 async function continueLoop() {
