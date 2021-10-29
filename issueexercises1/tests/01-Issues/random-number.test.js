@@ -4,6 +4,14 @@ const mockMath = Object.create(global.Math);
 mockMath.random = () => 0.5;
 global.Math = mockMath;
 
+/*before(function (){
+    console.log("Testing start.");
+})
+
+after(function (){
+    console.log("Testing finished.");
+})*/
+
 test('the input is a number', () => {
     // const myMock = jest.fn();
     // myMock = mockReturnValueOnce(4);
