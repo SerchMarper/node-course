@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use strict";
 
 let score0El = document.querySelector("#score--0");
@@ -79,3 +80,8 @@ btnRoll.addEventListener("click", function () {
         }
     }
 });
+=======
+'use strict';
+
+document.querySelector('.message').textContent = 'No number!'
+>>>>>>> main
