@@ -26,6 +26,7 @@ const jessica2 = {
     family: ['Alice', 'Bob'],
 }
 
+//Pointed new object to another object with the same structure as jessica2, which creates a supercifical clone, not a deep level one.
 const jessicaCopy = Object.assign({}, jessica2);
 jessicaCopy.lastName = 'Davis';
 console.log('Before marriage: ', jessica2);
